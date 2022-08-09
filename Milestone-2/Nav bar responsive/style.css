@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    transition: all 0.3s eae 0s;
+}
+
+ul li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s eae 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+li,
+a,
+button {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.active {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+}

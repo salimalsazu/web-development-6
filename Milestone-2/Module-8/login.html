@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+
+
+
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0px 10px;
+        }
+
+        nav a:hover {
+            font-weight: bold;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            background-color: wheat;
+            height: 250px;
+            border-radius: 10px;
+            padding: 10px 15px;
+        }
+
+        .login-form input {
+            margin-top: 15px;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: yellowgreen;
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .login-form input[type="submit"]:hover {
+            background: none;
+            border: 2px solid lightslategrey;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventory</a>
+                <a href="">Support</a>
+            </span>
+
+            <span>
+                <a href="">Profile</a>
+                <a href="">Log Out</a>
+            </span>
+        </nav>
+
+        <!----  Fomt Awesome  আপনারা নিজেরা ব্যবাহার করে নিয়েন  -->
+
+    </header>
+
+    <section class="login-container">
+        <form class=" login-form">
+            <h2 style="text-align:center;">Pls, Log in </h2>
+
+            <input type="email" name="" id="" placeholder="Your Email Address" required>
+            <input type="password" name="" id="" placeholder="Type your Secret Word & Number" required>
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </section>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+        .container {
+            border: 5px solid gray;
+            /* বক্স বা কোন কিছু হরিযেন্টাইল বা বার্টিকেল নেওয়ার জন্য আমরা এটা ব্যাবহার করবো  */
+            display: flex;
+            /* কলাম বা রো তে ব্যবাহার করবো নাকি রিভার্স করবো তার জন্য ব্যবাহার করবো  */
+            flex-direction: row;
+
+            /* flex-wrap সাধারণত একটা রো কে একাধিকে রো তে নেওয়ার জন্য করা হয়।   এর অনেক অপশন আছে সেগুলো W3  স্কুল দেখো নিবো   */
+
+            flex-wrap: wrap;
+
+
+            /* justify-content সাধারণত  হরিযেন্টাল (বামে ডানে) সেটআপ এর জন্য ব্যবাহার হয় ।  এর অনেক অপশন আছে সেগুলো W3  স্কুল দেখো নিবো   */
+
+            justify-content: center;
+            /* align-items সাধারণত  বার্টিকেল (উপরে নিচে) সেটআপ এর জন্য ব্যবাহার হয় ।  এর অনেক অপশন আছে সেগুলো W3  স্কুল দেখো নিবো   */
+            align-items: center;
+
+            height: 800px;
+
+            /* বক্স গুলোকে টেনে লম্বা করার জন্য এটা ব্যবাহার হয় । এটা ব্যবাহার করার সময় চাইল্ড ডিবের হাইট ভূলেও দেওয়া যাবে না  */
+            align-items: stretch;
+
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 400px;
+            font-size: 35px;
+        }
+
+        /* Flex-grow নিয়ে গুগলে করলে আমরা অনেক কিছু শিখতে পারবো */
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+        <div class="box">Box-1</div>
+        <div class="box">Box-2</div>
+        <div class="box">Box-3</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <html>
+
+    <body>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a>
+                    <ul class="dropdown">
+                        <li> Chairman</li>
+                        <li> Managing Director</li>
+                        <li> Director</li>
+                        <li> Assistanat Director</li>
+
+                    </ul>
+
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <style>
+            nav ul {
+                list-style: none;
+                display: flex;
+            }
+
+            nav li {
+                margin-right: 20px;
+                padding: 0 20px;
+
+            }
+
+            nav li a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .dropdown {
+                display: none;
+                position: absolute;
+                background: lightsalmon;
+                padding: 0;
+                text-align: center;
+            }
+
+            .dropdown li {
+                padding: 0 10px;
+            }
+
+            nav>ul>li:hover>ul {
+                display: block;
+            }
+        </style>
+    </body>
+
+    </html>
+
+
+    <style>
+        h1 {
+            color: aliceblue;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        h1 {
+            color: blueviolet;
+        }
+    </style>
+
+    <h1 class="heading"></h1>
+
+    <style>
+        .heading {
+            color: yellowgreen;
+        }
+    </style>
+
+
+    <h1 id="heading"> </h1>
+
+    <style>
+        #heading {
+            color: white;
+        }
+    </style>
+
+    <h1 style="color:tomato ;"></h1>
+
+    <h1 style="color:brown !important ;"></h1>
+
+
+
+    <!----------CSS Custom Property-->

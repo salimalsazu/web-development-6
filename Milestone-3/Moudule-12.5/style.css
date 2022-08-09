@@ -1,0 +1,43 @@
+/* Google Fonst*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&family=Roboto+Mono:wght@700&display=swap');
+
+/*General Style*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel {
+    width: 100%;
+}
+
+
+.margin-h {
+    margin-top: 95px;
+}
+
+#margin-r {
+    margin-top: -55px !important;
+}
+
+.margin-r {
+    margin-top: -15px;
+}
+
+.parahraph {
+    width: 300px;
+}
+
+.client {
+    margin-top: 55px;
+}
+
+footer {
+    height: 280px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
