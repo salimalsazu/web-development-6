@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM EVNETS</title>
+</head>
+
+<body>
+    <h1 onclick="console.log('i am clicked')"> DOM er aj k special events</h1>
+    <button title="this is tool tip" onclick="console.log(7)">Click me</button>
+    <button onclick="console.log(65)">another button</button>
+
+    <!-- option 1 -->
+    <button onclick="document.body.style.backgroundColor='Yellow'">Make Yellow</button>
+
+    <!---- option 2 -->
+    <button onclick="makeRed()">another Red</button>
+
+    <!-- option 3 -->
+    <button id="make-blue">another Blue</button>
+
+    <!-- option 3 another -->
+    <button id="make-purple">another Purple</button>
+
+    <!-- option 4 -->
+    <button id="make-pink">Make Pink</button>
+    <!-- option 5 -->
+    <button id="make-green">Make Green</button>
+
+    <button id="make-goldenrod">Make golden Rod</button>
+
+    <script src="./event.js"></script>
+</body>
+
+</html>
